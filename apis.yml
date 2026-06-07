@@ -1,0 +1,57 @@
+aid: ckan-montevideo-gub-uy
+name: Montevideo Open Data
+description: >-
+  Montevideo Open Data is a municipal government open-data portal for Uruguay running CKAN. It exposes the CKAN catalog API over approximately 155 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/ckan-montevideo-gub-uy/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Municipal Government
+  - Uruguay
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: ckan-montevideo-gub-uy:catalog
+    name: Montevideo Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Montevideo Open Data, ~155 datasets. Base URL https://ckan.montevideo.gub.uy/api/3/action/.
+    humanURL: https://ckan.montevideo.gub.uy
+    baseURL: https://ckan.montevideo.gub.uy/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://ckan.montevideo.gub.uy
+      - type: x-api-endpoint
+        url: https://ckan.montevideo.gub.uy/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.9'
+common:
+  - type: Website
+    url: https://ckan.montevideo.gub.uy
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/ckan-montevideo-gub-uy-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/ckan-montevideo-gub-uy-rate-limits.yml
+  - type: FinOps
+    url: finops/ckan-montevideo-gub-uy-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
